@@ -1,0 +1,129 @@
+:root{
+    --dark-magenta: hsl(300, 43%, 22%);
+    --grayish-magenta: hsl(303, 10%, 53%);
+    --grayish-magenta-l: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+    --pink: hsl(333, 80%, 67%);
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+}
+
+/* Headline Section */
+.container{
+    position: relative;
+    display: inline-block;
+    height: 300px;
+    width: 350px;
+    margin: 4rem 4rem 1rem 8.3rem;
+}
+
+.headline{
+    font-size: 3rem;
+    color: var(--dark-magenta);
+    line-height: 0.9;
+}
+
+.summary{
+    color: var(--grayish-magenta);
+    font-weight: 500;
+}
+
+/* 5 Star by Websites */
+.review-summary{
+    position: absolute;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    top: 8rem;
+    right: 18rem;
+}
+
+.star-card{
+    background-color: var(--grayish-magenta-l);
+    color: var(--dark-magenta);
+    font-weight: 700;
+    margin-bottom: 1rem;
+    width: 25rem;
+    height: 2.9rem;
+    padding: 0.1rem 0.1rem 0.1rem 2rem;
+    border-radius: 5px;
+}
+
+.star-icon{
+    margin-right: 2px;
+}
+
+.five-star{
+    position: relative;
+    display: inline-block;
+    left: 1rem;
+    bottom: 0.2rem;
+}
+
+#reviews{
+    position: relative;
+    right: 4rem;
+}
+
+#report-guru{
+    position: relative;
+    right: 2rem;
+}
+
+/* Customer Reviews */
+.customer-reviews{
+    display: flex;
+    position: relative;
+    left: 10rem;
+    width: 85%;
+}
+
+.card{
+    color: white;
+    padding: 1.5rem;
+    background-color: var(--dark-magenta);
+    border-radius: 0.5rem;
+    height: 150px;
+    width: 250px;
+    margin-right: 2rem;
+    font-weight: 500;
+}
+
+.name{
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    top: -0.5rem;
+    left: 1rem;
+}
+
+.avatar{
+    position: relative;
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    top: 0.7rem;
+    border-radius: 100%;
+}
+
+.verified-buyer{
+    position: relative;
+    top: 0.9rem;
+    left: -5rem;
+    color: var(--pink);
+}
+
+.review{
+    font-size: 14px;
+    line-height: 1.3;
+}
+
+#irene{
+    position: relative;
+    top: 1rem;
+}
+
+#anne{
+    position: relative;
+    top: 2rem;
+}
